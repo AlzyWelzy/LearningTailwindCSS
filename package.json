@@ -4,6 +4,7 @@
   "description": "I am learning Tailwind CSS",
   "main": "index.js",
   "scripts": {
+    "start": "vite",
     "build": "tailwindcss -i ./input.css -o ./dist/output.css",
     "watch": "tailwindcss -i ./input.css -o ./dist/output.css --watch"
   },
@@ -22,6 +23,9 @@
   },
   "homepage": "https://github.com/AlzyWelzy/LearningTailwindCSS#readme",
   "devDependencies": {
-    "tailwindcss": "^3.1.8"
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.0.9"
   }
 }
