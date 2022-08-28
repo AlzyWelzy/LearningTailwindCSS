@@ -4,6 +4,7 @@ module.exports = {
     "./Implementation/*/*.html",
     "./Learning/*/*.html",
     "./Learning/*.html",
+    "./*.html",
   ],
   theme: {
     extend: {
