@@ -4,12 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        darkMode: 'class',
-      }
-    </script>
+    <link href="../../dist/output.css" rel="stylesheet" />
+
     <style>
       .toggle-checkbox:checked {
         right: 0;
@@ -52,13 +48,13 @@
     </div>
 
     <script>
-      document.getElementById('toggle').addEventListener('change', function () {
+      document.getElementById("toggle").addEventListener("change", function () {
         if (this.checked) {
-          document.documentElement.classList.add('dark')
+          document.documentElement.classList.add("dark");
         } else {
-          document.documentElement.classList.remove('dark')
+          document.documentElement.classList.remove("dark");
         }
-      })
+      });
     </script>
   </body>
 </html>

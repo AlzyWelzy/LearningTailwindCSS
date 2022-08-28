@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="../../dist/output.css" rel="stylesheet" />
     <title>Interactivity</title>
   </head>
   <body>
@@ -31,18 +31,21 @@
       Submit
     </button>
 
-    <br>
+    <br />
 
     <!-- Styling based on parent state -->
     <!-- When you need to style an element based on the state of some parent element, mark the parent with the group class, and use group-* modifiers like group-hover to style the target element: -->
-    <a href="#" class="group block max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500">
-  <div class="flex items-center">
-    <h3 class="group-hover:text-white">Card Title</h3>
-  </div>
-  <p class="group-hover:text-white">This is some card text</p>
-</a>
+    <a
+      href="#"
+      class="group block max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500"
+    >
+      <div class="flex items-center">
+        <h3 class="group-hover:text-white">Card Title</h3>
+      </div>
+      <p class="group-hover:text-white">This is some card text</p>
+    </a>
 
- <br>
+    <br />
 
     <!-- Pseudo Classes -->
     <ul>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="../../dist/output.css" rel="stylesheet" />
     <title>Utility First Fundamentals</title>
     <style>
       body {
@@ -57,7 +57,9 @@
     </div>
 
     <!-- Tailwind Version -->
-    <div class="flex items-center p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-x-4">
+    <div
+      class="mt-10 flex items-center p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-x-4"
+    >
       <img class="h-12 w-12" src="../assets/img/warning.svg" alt="alert" />
       <div>
         <div class="text-xl font-medium text-black">Are You Sure?</div>
@@ -67,7 +69,7 @@
   </body>
 </html>
 
-<!--  
+<!--
   - We didn't have to write any extra CSS
   - No spending time on class names
   - No worrying about our CSS file getting too large
