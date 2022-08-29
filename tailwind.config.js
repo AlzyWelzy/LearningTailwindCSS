@@ -1,11 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./Implementation/*/*.html",
-    "./Learning/*/*.html",
-    "./Learning/*.html",
-    "./*.html",
-  ],
+  content: ["*"],
   theme: {
     extend: {
       transitionDuration: {
@@ -22,6 +17,10 @@ module.exports = {
           "50%": { transform: "rotate(12deg)" },
         },
       },
+    },
+    fontFamily: {
+      sans: ["Mulish", "sans-serif"],
+      mono: ["Rokkitt", "monospace"],
     },
     screens: {
       sm: "550px",
